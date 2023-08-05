@@ -1,2 +1,4 @@
 # ubiquitous-telegram
-Module 19 Progressive Web Applications (PWA) Challenge: Text Editor
+Module 18 NoSQL Challenge: Social Network API
+
+https://github.com/stellalph/19-PWA-Text-Editor
