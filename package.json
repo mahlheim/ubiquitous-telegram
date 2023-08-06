@@ -1,25 +1,21 @@
 {
-  "name": "JATE",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "name": "Module 18 NoSQL Challenge: Social Network API",
+  "version": "1.0.1",
+  "description": "Mongoose back-end project",
+  "main": "index.js",
+  "license": "MIT",
   "scripts": {
-    "start:dev": "",
-    "start": "",
-    "server": "",
-    "build": "",
-    "install": "",
-    "client": ""
+    "start": "node index",
+    "dev": "nodemon index",
+    "seed": "node utils/seed",
+    "heroku-postbuild": "node utils/seed.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "if-env": "^1.0.4"
+    "mongoose": "^7.0.2",
+    "moment": "^2.29.3"
   },
   "devDependencies": {
-    "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.9"
   }
 }
