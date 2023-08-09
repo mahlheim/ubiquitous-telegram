@@ -12,8 +12,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^7.0.2",
-    "moment": "^2.29.3"
+    "mongoose": "^7.0.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.9"
